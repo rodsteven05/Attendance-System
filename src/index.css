@@ -151,3 +151,9 @@ tbody tr:hover{background:#f6f9f7}
 .correction-history { padding-left: 1.5rem; max-height: 60vh; overflow: auto; }
 .correction-history li { padding: .8rem 0; border-bottom: 1px solid #d8dfdb; }
 .correction-history p { margin: .4rem 0; overflow-wrap: anywhere; }
+.password-wrap { position: relative; }
+.password-wrap input { width: 100%; padding-right: 40px; }
+.eye-toggle { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); display: grid; place-items: center; padding: 4px; background: none; border: 0; color: var(--muted); }
+.eye-toggle:hover { color: var(--ink); }
+[data-theme="dark"] .eye-toggle { color: #8ba098; }
+[data-theme="dark"] .eye-toggle:hover { color: var(--ink); }
