@@ -1,6 +1,6 @@
 {
-  "name": "Attendance System",
-  "short_name": "Attendance",
+  "name": "Attendly",
+  "short_name": "Attendly",
   "description": "Track classroom attendance with QR codes and real-time sync.",
   "start_url": "/",
   "display": "standalone",
